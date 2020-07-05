@@ -6,16 +6,22 @@
 
 body {
   font-size: 14px;
+  
 }
 
 div {
   width: 100%;
   margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 div li {
   display: flex;
   align-items: center;
+  margin-top: 15px;
 }
 
 div li + li {
@@ -31,6 +37,7 @@ button {
   margin-top: 15px;
   font-weight: bold;
   font-size: 14px;
+  border-radius: 4px;
 }
 
 div li button {
